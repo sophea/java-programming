@@ -1,7 +1,16 @@
 # java-programming
 java-programming
 
-Mac OS : install both JDK  java 1.7 and 1.8 together
+#Download Java JDK 1.7 or 1.8
+ - JDK 1.7 
+ - JDK 1.8
+ 
+#IDE
+ - Eclipse : download http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/junor
+ - STS : https://spring.io/tools/sts/all
+ 
+ 
+# Mac OS : install both JDK  java 1.7 and 1.8 together
 ```sh
 
 Install java jdk 1.7
