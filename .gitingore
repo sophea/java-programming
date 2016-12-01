@@ -1,0 +1,7 @@
+.classpath
+.project
+.settings/
+bin/
+copy.txt
+file.txt
+filename.ser
