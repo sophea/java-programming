@@ -2,14 +2,17 @@
 java-programming
 
 #Download Java JDK 1.7 or 1.8
- - JDK 1.7 
- - JDK 1.8
+ - JDK 1.7 : http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+
+ - JDK 1.8 :  http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
  
 #IDE
- - Eclipse : download http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/junor
+ - Eclipse : download https://www.eclipse.org/downloads/download.php?file=/oomph/epp/neon/R1/eclipse-inst-win64.exe
  - STS : https://spring.io/tools/sts/all
  
- 
+For Window OS instruction see this:  
+https://docs.google.com/document/d/1bGrkn_vgYZ38mxjwOyKcIxrwN5dVX_rclmBIrtooRgc/edit
+
 # Mac OS : install both JDK  java 1.7 and 1.8 together
 ```sh
 
