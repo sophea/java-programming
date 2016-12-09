@@ -2,9 +2,8 @@
 java-programming
 
 #Download Java JDK 1.7 or 1.8
- - JDK 1.7 : http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
-
- - JDK 1.8 :  http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+ - JDK 1.7 - http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+ - JDK 1.8 - http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
  
 #IDE
  - Eclipse : download https://www.eclipse.org/downloads/download.php?file=/oomph/epp/neon/R1/eclipse-inst-win64.exe
