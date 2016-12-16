@@ -6,7 +6,7 @@ package basic.ch1;
  * @version $id$ - $Revision$
  * @date 2016
  */
-public class JBaseObject {
+public abstract class JBaseObject {
     private long id;
     private String createdBy;
 

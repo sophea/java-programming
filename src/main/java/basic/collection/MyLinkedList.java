@@ -1,9 +1,7 @@
 /***/
 package basic.collection;
 
-import java.util.Collections;
 import java.util.LinkedList;
-import java.util.List;
 
 /**
  * @author Sophea <a href='mailto:smak@dminc.com'> sophea </a>
@@ -16,32 +14,43 @@ public class MyLinkedList {
      * @param args
      */
     public static void main(String[] args) {
-        List<String> list = new LinkedList<>();
-      //add elements to the LinkedList
-        list.add("JAVA");
-        list.add("C++");
-        list.add("PERL");
-        list.add("PHP");
-        System.out.println(list);
-        //get elements by index
-        System.out.println("Element at index 1: "+list.get(1));
-        System.out.println("Does list contains JAVA? "+list.contains("JAVA"));
-        
-        //add elements at a specific index
-        list.add(2,"PLAY");
-        System.out.println(list);
-        //check Empty or not
-        System.out.println("Is linkedlist empty? "+list.isEmpty());
-        //indexOf
-        System.out.println("Index of PERL is "+list.indexOf("PERL"));
-        
-        //size
-        System.out.println("Size of the linkedlist is: "+list.size());
-        
-        Collections.reverse(list);
-        System.out.println("Results after reverse operation:");
-        System.out.println(list);
+        /* Linked List Declaration */
+        LinkedList<String> linkedlist = new LinkedList<String>();
 
+        /*add(String Element) is used for adding 
+         * the elements to the linked list*/
+        linkedlist.add("Item1");
+        linkedlist.add("Item5");
+        linkedlist.add("Item3");
+        linkedlist.add("Item6");
+        linkedlist.add("Item2");
+
+        /*Display Linked List Content*/
+        System.out.println("Linked List Content: " +linkedlist);
+
+        /*Add First and Last Element*/
+        linkedlist.addFirst("First Item");
+        linkedlist.addLast("Last Item");
+        System.out.println("LinkedList Content after addition: " +linkedlist);
+
+        /*This is how to get and set Values*/
+        //Object firstvar = linkedlist.get(0);
+        Object firstvar = linkedlist.getFirst();
+        System.out.println("First element: " +firstvar);
+        linkedlist.set(0, "Changed first item");
+        Object firstvar2 = linkedlist.get(0);
+        System.out.println("First element after update by set method: " +firstvar2);
+
+        /*Remove first and last element*/
+        linkedlist.removeFirst();
+        linkedlist.removeLast();
+        System.out.println("LinkedList after deletion of first and last element: " +linkedlist);
+
+        /* Add to a Position and remove from a position*/
+        linkedlist.add(0, "Newly added item");
+        linkedlist.remove(2);
+        System.out.println("Final Content: " +linkedlist); 
+    
     }
 
 }

@@ -3,6 +3,7 @@ package basic.collection.map;
 
 import java.util.Enumeration;
 import java.util.Hashtable;
+import java.util.Map.Entry;
 
 /**
  * - Not support null key & null value
@@ -32,7 +33,9 @@ public class HashtableDemo {
         balance.put("Daisy", new Double(99.22));
         balance.put("Qadir", new Double(-19.08));
 
-        
+        for (Entry<String, Double> item : balance.entrySet()) {
+            System.out.println("key : " + item.getKey() + ", value =" + item.getValue());
+        }
         // Show all balances in hash table.
         Enumeration<String> names = balance.keys();
         
