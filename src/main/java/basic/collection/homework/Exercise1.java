@@ -1,8 +1,10 @@
 /***/
-package basic.collection;
+package basic.collection.homework;
 
 import java.util.Collections;
 import java.util.List;
+
+import basic.collection.CountriesList;
 
 /**
  * @author Sophea <a href='mailto:smak@dminc.com'> sophea </a>

@@ -36,7 +36,6 @@ public class BasicSet {
          * The add()method returns true if the set does not contain the specified element, and returns false if the set already
          * contains the specified element:
          */
-
         Set<String> names = new HashSet<>();
         names.add("Tom");
         names.add("Mary");

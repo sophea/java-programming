@@ -1,9 +1,9 @@
 package java8;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.List;
 
 public class WorkingWithFile {
 
@@ -27,12 +27,14 @@ public class WorkingWithFile {
 
         System.out.println(FilesUtil.readTextFile("copy.txt"));
 
-        FilesUtil.readTextFileByLines("file.txt");
-        Path path = Paths.get("file.txt");
-        
+        List<String> list = FilesUtil.readTextFileByLines("file.txt");
+        Path path = Paths.get("file.txt");        
         System.out.println(path.toAbsolutePath().toString());
      
-        InputStream resourceAsStream = WorkingWithFile.class.getResourceAsStream("config.properties");
+        //InputStream resourceAsStream = WorkingWithFile.class.getResourceAsStream("config.properties");
+        
+        //
+        FilesUtil.writeLargerTextFile("newFile.txt", list);
         
         
     }

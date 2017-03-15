@@ -61,7 +61,7 @@ public class BasicHashMap {
         
         //Replacing a value associated with a specified key:
         System.out.println("Map before: " + mapHttpErrors);
-        mapHttpErrors.replace(304, "No Changes");
+        //mapHttpErrors.replace(304, "No Changes");
         System.out.println("Map after: " + mapHttpErrors);
         
         //Getting the size of the map:
