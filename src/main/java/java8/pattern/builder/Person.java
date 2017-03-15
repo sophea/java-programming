@@ -10,6 +10,10 @@ public class Person {
     private String lastName;
     private String firstName;
     
+    public Person(String lastName, String firstName) {
+        this.lastName = lastName;
+        this.firstName = firstName;
+    }
     private Person(PersonBuilder persionBuilder) {
         this.lastName = persionBuilder.lastName;
         this.firstName = persionBuilder.firstName;
@@ -56,10 +60,6 @@ public class Person {
         public Person build() {
             return new Person (this);
         }
-    }
-
-    public static void main(String[] args) {
-        System.out.println(new Person.PersonBuilder().lastName("Sophea").firstName("MAK").build());
     }
 }
 
